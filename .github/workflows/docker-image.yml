@@ -39,7 +39,7 @@ jobs:
       
 
     - name: Build docs
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v2
       with:
         python-version: '2.7' 
     - run: yarn && yarn build
