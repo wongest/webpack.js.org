@@ -42,7 +42,7 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: '2.7' 
-      run: yarn && yarn build
+    - run: yarn && yarn build
 
     - name: Docker build
       uses: docker/setup-buildx-action@v3
