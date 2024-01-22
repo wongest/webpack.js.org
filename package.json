@@ -75,7 +75,7 @@
     "eslint-loader": "^2.0.0",
     "eslint-plugin-markdown": "^1.0.0-rc.0",
     "file-loader": "^1.1.11",
-    "fontgen-loader": "git://github.com/EugeneHlushko/fontgen-loader.git#a26a73843900ca4b518853952b1fc3c816103512",
+    "fontgen-loader": "0.2.1",
     "front-matter": "^2.2.0",
     "gh-pages": "^1.0.0",
     "github": "^10.0.0",
