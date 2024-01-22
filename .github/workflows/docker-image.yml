@@ -40,6 +40,8 @@ jobs:
 
     - name: Build docs
       run: yarn && yarn build
+      with:
+        token: ${{ secrets.CHECKOUT_REPO_TOKEN }}
 
     - name: Docker build
       uses: docker/setup-buildx-action@v3
