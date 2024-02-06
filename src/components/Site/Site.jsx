@@ -247,6 +247,11 @@ function Site(props) {
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           ></script>
+          <script
+            type="text/javascript"
+            src="https://cdn.wwads.cn/js/makemoney.js"
+            async
+          />
         </Helmet>
         <div className="site__header">
           <Navigation

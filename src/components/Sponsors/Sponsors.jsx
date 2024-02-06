@@ -15,6 +15,11 @@ const Sponsors = () => {
         <div className="sponsors__content-cont">
           翻译/文档内容有任何问题，请联系我们
         </div>
+        <div
+          className="wwads-cn wwads-horizontal wwads-sticky"
+          data-id="306"
+          style={{ maxWidth: '350px' }}
+        ></div>
       </Link>
     </div>
   );

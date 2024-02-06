@@ -24,7 +24,10 @@ export default (env) =>
       index: './index.jsx',
     },
     plugins: [
-      new ReactRefreshWebpackPlugin(),
+      new ReactRefreshWebpackPlugin({
+        esModule: false,
+        exclude: [/node_modules/, /utilities/],
+      }),
       new HTMLPlugin({
         template: 'index.html',
         favicon: 'favicon.ico',
@@ -44,5 +47,6 @@ export default (env) =>
       hot: true,
       compress: true,
       historyApiFallback: true,
+      allowedHosts: 'all',
     },
   });
