@@ -13,7 +13,7 @@ translators:
 related:
   - title: 解释 nonce 设计目的
     url: https://stackoverflow.com/questions/42922784/what-s-the-purpose-of-the-html-nonce-attribute-for-script-and-style-elements
-  - title: 白名单的不安全性和内容安全政策的未来
+  - title: 白名单的不安全性和内容安全策略的未来
     url: https://ai.google/research/pubs/pub45542
   - title: 使用 CSP, Hash, Nonce 和 Report URI 锁定你的网站脚本
     url: https://www.troyhunt.com/locking-down-your-website-scripts-with-csp-hashes-nonces-and-report-uri/
@@ -37,7 +37,7 @@ __webpack_nonce__ = 'c29tZSBjb29sIHN0cmluZyB3aWxsIHBvcCB1cCAxMjM=';
 
 ## 启用 CSP $#enabling-csp$
 
-注意，默认情况下不启用 CSP。需要与文档一同发送相应的 `CSP` 响应头 `<Content-Security-Policy` 或元标签 `<meta http-equiv="Content-Security-Policy" ...>` 以告知浏览器需要启用 CSP。以下是一个包含 CDN 白名单 URL 的 CSP 头部示例：
+注意，默认情况下不启用 CSP。需要与文档一同发送相应的 `CSP` 响应头 `Content-Security-Policy` 或元标签 `<meta http-equiv="Content-Security-Policy" ...>` 以告知浏览器需要启用 CSP。以下是一个包含 CDN 白名单 URL 的 CSP 头部示例：
 
 ```html
 Content-Security-Policy: default-src 'self'; script-src 'self'
