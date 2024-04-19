@@ -550,7 +550,7 @@ T> 启用 `optimization.sideEffects` 后，当模块只包含无副作用的语�
 
 `boolean = true` `string: 'global'`
 
-告诉 webpack 去决定每个模块的到处内容是否被使用。这首先取决于 [`optimization.providedExports`](#optimizationprovidedexports) 选项是否被启用。由 `optimization.usedExports` 收集的信息会被其它优化手段或者代码生成使用，比如未使用的导出内容不会被生成，当所有的使用都适配，导出名称会被处理做单个标记字符。
+告诉 webpack 去决定每个模块的导出内容是否被使用。这首先取决于 [`optimization.providedExports`](#optimizationprovidedexports) 选项是否被启用。由 `optimization.usedExports` 收集的信息会被其它优化手段或者代码生成使用，比如未使用的导出内容不会被生成，当所有的使用都适配，导出名称会被处理做单个标记字符。
 压缩工具执行清除死代码时会受益于该选项，而且能够去除未使用的导出内容。
 
 **webpack.config.js**
